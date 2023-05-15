@@ -13,6 +13,9 @@ MIT
 @angular/router
 MIT
 
+ngx-csv
+MIT
+
 rxjs
 Apache-2.0
                                Apache License
