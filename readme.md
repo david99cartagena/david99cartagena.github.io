@@ -13,6 +13,7 @@ Bienvenido/a a mi portafolio web profesional. Aquí presento mi experiencia labo
 
 ## 📁 Estructura del Proyecto
 
+```env
 📦 portafolio/
 ├── index.html # Página principal del portafolio
 ├── style.css # Estilos personalizados
@@ -21,6 +22,7 @@ Bienvenido/a a mi portafolio web profesional. Aquí presento mi experiencia labo
 │ │ └── mi-foto.jpg # Ejemplo de archivo
 │ └── cv/ # Carpeta para tu CV
 │ └── mi-cv.pdf # Tu currículum en PDF
+```
 
 ## 🌍 Sitio Web
 
