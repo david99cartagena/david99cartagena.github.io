@@ -33,7 +33,6 @@ Puedes ver este portafolio en línea en GitHub Pages:
 ## 📫 Contacto
 
 - [LinkedIn](https://co.linkedin.com/public-profile/in/david-stevens-cartagena-navarro-248619199)
-- [GitHub](https://github.com/david99cartagena)
 
 ---
 
