@@ -260,7 +260,7 @@ section {
 }
 
 .hero-image img {
-    width: 350px;
+    width: 320px;
     height: 350px;
     object-fit: cover;
     border-radius: 50%;
