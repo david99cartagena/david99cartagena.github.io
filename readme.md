@@ -15,13 +15,13 @@ Bienvenido/a a mi portafolio web profesional. Aquí presento mi experiencia labo
 
 ```env
 📦 portafolio/
-├── index.html # Página principal del portafolio
-├── style.css # Estilos personalizados
-├── assets/ # Carpeta para recursos estáticos
-│ ├── img/ # Imágenes (fotos, capturas de proyectos, etc.)
-│ │ └── mi-foto.jpg # Ejemplo de archivo
-│ └── cv/ # Carpeta para tu CV
-│ └── mi-cv.pdf # Tu currículum en PDF
+├── index.html       # Página principal del portafolio
+├── style.css        # Estilos personalizados
+├── assets/          # Carpeta para recursos estáticos
+│ ├── img/           # Imágenes (fotos, capturas de proyectos, etc.)
+│ │ └── mi-foto.jpg  # Ejemplo de archivo
+│ └── cv/            # Carpeta para tu CV
+│ └── mi-cv.pdf      # Tu currículum en PDF
 ```
 
 ## 🌍 Sitio Web
