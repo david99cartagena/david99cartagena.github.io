@@ -73,6 +73,7 @@ header {
     padding: 1rem 5%;
     /* max-width: 1400px; */
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .menu-toggle {
@@ -117,10 +118,12 @@ header {
 
 .nav-links a:hover {
     color: var(--primary-color);
+    cursor: pointer;
 }
 
 .nav-links a:hover::after {
     width: 100%;
+    cursor: pointer;
 }
 
 /* ============================= */
@@ -172,6 +175,7 @@ section {
     transform: translateY(-3px);
     /* box-shadow: 0 5px 15px rgba(109, 99, 255, 0.3); */
     box-shadow: 0 5px 15px rgba(0, 195, 255, 0.3);
+    cursor: pointer;
 }
 
 /* ============================= */
@@ -248,6 +252,7 @@ section {
 .social-links a:hover {
     background-color: var(--primary-color);
     transform: translateY(-3px);
+    cursor: pointer;
 }
 
 /* ============================= */
@@ -274,6 +279,7 @@ section {
     transform: scale(1.03);
     /* box-shadow: 0 0 30px rgba(108, 99, 255, 0.5); */
     box-shadow: 0 0 30px rgba(99, 255, 255, 0.5);
+    cursor: pointer;
 }
 
 /* ============================= */
@@ -368,6 +374,46 @@ section {
     background-color: var(--primary-color);
     transform: translateY(-3px);
     color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#skills .skills-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#skills .project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+#skills .tech-item {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    transition: var(--transition);
+    cursor: default;
+    border-radius: 999px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+#skills .tech-item:hover {
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.4);
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+#skills .tech-icon {
+    width: 20px;
+    height: 20px;
 }
 
 /* ============================= */
@@ -395,6 +441,7 @@ section {
 
 .project-card:hover img {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .project-info {
@@ -454,6 +501,7 @@ section {
     color: var(--dark-bg);
     /* white */
     transform: translateY(-3px);
+    cursor: pointer;
 }
 
 /* ============================= */
@@ -476,6 +524,7 @@ section {
 .tech-item:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
 }
 
 .tech-item-text {
@@ -486,6 +535,48 @@ section {
     width: 20px;
     height: 20px;
     object-fit: contain;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.filter-buttons .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--border-color);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: var(--transition);
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 0 8px 2px rgba(0, 195, 255, 0.6);
+    cursor: pointer;
+}
+
+.filter-buttons .btn img.tech-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.filter-buttons .btn:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 195, 255, 0.3);
+    cursor: pointer;
+}
+
+.filter-buttons .btn:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 195, 255, 0.3);
+    cursor: pointer;
 }
 
 /* ============================= */
@@ -563,6 +654,11 @@ section {
         /* opacity: 1;
         pointer-events: auto;
         transform: translateY(0); */
+    }
+
+    .filter-buttons {
+        flex-direction: column;
+        align-items: center;
     }
 
     .hero-content {
