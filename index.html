@@ -22,14 +22,6 @@
             </ul>
         </nav>
     </header>
-    <script>
-        const hamburger = document.getElementById("hamburger");
-        const navLinks = document.getElementById("navLinks");
-        hamburger.addEventListener("click", () => {
-            hamburger.classList.toggle("active");
-            navLinks.classList.toggle("active");
-        });
-    </script>
 
     <main>
         <section id="inicio" class="hero">
@@ -71,7 +63,7 @@
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
                             alt="Python" class="tech-icon" />Python
                     </div>
-                    
+
                     <div class="tech-item" title="Lenguaje Tipado">
                         <img src="https://cdn.simpleicons.org/typescript/3178C6" alt="TypeScript"
                             class="tech-icon" />TypeScript
@@ -317,18 +309,18 @@
 
             <!-- Botones de filtrado -->
             <div class="filter-buttons">
-                <button class="btn" onclick="filterProjects('destacado')">
+                <button class="btn" data-filter="destacado">
                     Destacado ✨
                 </button>
-                <button class="btn" onclick="filterProjects('laravel')">
+                <button class="btn" data-filter="laravel">
                     Laravel / PHP
                 </button>
-                <button class="btn" onclick="filterProjects('angular')">
+                <button class="btn" data-filter="angular">
                     Angular
                 </button>
-                <button class="btn" onclick="filterProjects('all')">Todos 📂</button>
+                <button class="btn" data-filter="all">Todos 📂</button>
             </div>
-            
+
             <div class="project-tech">
                 <div class="projects-container">
                     <div class="project-card laravel">
@@ -732,27 +724,8 @@
                 </a>
             </div>
         </div>
-        <script>
-            document.getElementById("current-year").textContent =
-                new Date().getFullYear();
-        </script>
-        <script>
-            function filterProjects(category) {
-                const projects = document.querySelectorAll(".project-card");
-
-                projects.forEach((project) => {
-                    if (category === "all") {
-                        project.style.display = "block";
-                    } else {
-                        project.style.display = project.classList.contains(category)
-                            ? "block"
-                            : "none";
-                    }
-                });
-            }
-            filterProjects("destacado");
-        </script>
     </footer>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
